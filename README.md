@@ -1,47 +1,49 @@
-# Qiurio Creation – Official Website
+# Qiurio Creation - Official Website
 
-This is the official website for **Qiurio Creation**, a Bali-based creative studio that brings stories to life through cinematic visuals. We specialize in:
+Welcome to the official website of **Qiurio Creation**, a Bali-based creative studio specializing in:
 
 🎬 Videography  
 💍 Wedding Films  
 📸 Photography  
-🚁 Aerial & FPV Drone  
+🚁 Aerial & FPV Drone Footage  
 🎞️ Post-production
 
-Built with clean HTML and CSS, this website showcases our services, portfolio, and creative spirit.
+This website is built with clean HTML and CSS to deliver a cinematic, minimalist, and modern visual experience.
 
 ---
 
 ## 🌐 Live Preview
 
-🖥️ [Visit the Website](https://bagszamuderaa.github.io/QIURIO-CREATION/)
+> https://your-username.github.io/qiurio-website/
+
+Replace `your-username` with your actual GitHub username after deploying via GitHub Pages.
 
 ---
 
-## 📁 Project Structure---
+## 📁 Project Structure
 
-## 🛠️ How to Use / Modify
-
-1. Clone or download the repository.
-2. Replace `your-video.mp4` in the `<video>` tag inside `index.html` with your own footage.
-3. Update text content, services, or project items as needed.
-4. Deploy to GitHub Pages or your preferred web host.
+```
+index.html       # Main homepage file  
+README.md        # Project description (this file)
+your-video.mp4   # Background video for hero section (optional, not included)
+```
 
 ---
 
-## ✨ Features
+## 🛠️ How to Use
 
-- Cinematic full-screen hero section
-- Sticky navbar navigation across all pages
-- Responsive layout for all devices
-- Simple and clean multi-page setup
-- Contact form with WhatsApp CTA
+1. Clone or download this repo
+2. Edit `index.html` to customize the content, services, or portfolio
+3. Replace `your-video.mp4` with your own background footage
+4. Upload to any web hosting (GitHub Pages recommended)
 
 ---
 
 ## 📞 Contact
 
-📧 Email: qiurio.creative@gmail.com  
+Want to work with us or say hello?
+
+📧 qiurio.creative@gmail.com  
 📱 WhatsApp: [+62 812 4790 8788](https://wa.me/6281247908788)  
 📸 Instagram: [@qiurio.visuals](https://instagram.com/qiurio.visuals)
 

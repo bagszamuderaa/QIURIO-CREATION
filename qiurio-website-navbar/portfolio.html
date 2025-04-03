@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Qiurio Creation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body { font-family: 'Montserrat', sans-serif; background: #000; color: #fff; margin: 0; padding: 0; }
+    .container { max-width: 1100px; margin: auto; padding: 4rem 2rem; }
+    h1 { color: #d4af37; font-size: 2.5rem; text-align: center; margin-bottom: 3rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+    .item { background: #1c1c1c; padding: 1.5rem; border-radius: 12px; }
+    .item h3 { color: #fff; margin-bottom: 0.5rem; }
+    .item p { color: #ccc; }
+  </style>
+</head>
+<body>
+
+  <nav style="background:#000; padding:1rem 2rem; position:sticky; top:0; z-index:1000; display:flex; justify-content:space-between; align-items:center; border-bottom: 1px solid #333;">
+    <div style="font-weight:bold; color:#d4af37; font-size:1.2rem;">Qiurio</div>
+    <div style="display:flex; gap:1rem;">
+      <a href="index.html" style="color:#fff; text-decoration:none;">Home</a>
+      <a href="about.html" style="color:#fff; text-decoration:none;">About</a>
+      <a href="portfolio.html" style="color:#fff; text-decoration:none;">Portfolio</a>
+      <a href="index.html#contact" style="color:#fff; text-decoration:none;">Contact</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Our Portfolio</h1>
+    <div class="grid">
+      <div class="item">
+        <h3>Wedding Film - Ubud</h3>
+        <p>A romantic and emotional wedding story in the jungle of Bali.</p>
+      </div>
+      <div class="item">
+        <h3>FPV Villa Tour</h3>
+        <p>Immersive drone experience flying through a luxury villa in Canggu.</p>
+      </div>
+      <div class="item">
+        <h3>Commercial Shoot</h3>
+        <p>Visual campaign for a sustainable fashion brand in Seminyak.</p>
+      </div>
+      <div class="item">
+        <h3>Event Highlight</h3>
+        <p>Capturing unforgettable moments from a private birthday celebration.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

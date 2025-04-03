@@ -1,80 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Qiurio Creation | Visual Studio Bali</title>
-  <meta name="description" content="Qiurio Creation adalah studio kreatif berbasis di Bali yang fokus pada videografi, fotografi, drone FPV, dan post-production.">
-  <meta property="og:title" content="Qiurio Creation | Visuals that Speak. Stories that Last.">
-  <meta property="og:description" content="Cinematic visual production house based in Bali.">
-  <meta property="og:image" content="https://qiurio.com/og-image.jpg">
-  <meta property="og:url" content="https://qiurio.com">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qiurio Creation</title>
   <link rel="icon" href="logo.png" type="image/png">
   <style>
-    body {
-      font-family: sans-serif;
-      background: #000;
-      color: #fff;
-      padding: 2rem;
-      line-height: 1.6;
-    }
-    h1, h2, h3 {
-      color: #d4af37;
-    }
-    a {
-      color: #d4af37;
-      text-decoration: none;
-    }
-    .section {
-      margin-bottom: 3rem;
-    }
+    body, html { margin: 0; padding: 0; font-family: sans-serif; background: #000; color: #fff; height: 100%; }
+    nav { position: absolute; top: 0; width: 100%; padding: 1rem 2rem; display: flex; justify-content: space-between; background: rgba(0,0,0,0.4); }
+    nav a { color: white; text-decoration: none; margin: 0 1rem; }
+    header { height: 100vh; overflow: hidden; position: relative; }
+    video { width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: -1; }
+    .hero { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; }
+    .hero h1 { font-size: 2.5rem; color: #fff; }
+    .hero p { color: #d4af37; font-size: 1.2rem; }
   </style>
 </head>
 <body>
-
-  <h1>Qiurio Creation</h1>
-  <p><em>Where Moments Turn Into Unfaded Cinematic Story</em></p>
-
-  <div class="section">
-    <h2>Tentang Kami</h2>
-    <p>Qiurio Creation adalah studio kreatif yang berfokus pada produksi konten visual seperti videografi, fotografi, drone, dan post-production. Kami berdedikasi untuk mengabadikan momen dan cerita dalam bentuk visual yang sinematik, autentik, dan penuh emosi.</p>
-    <p><strong>Makna Nama:</strong> Qiurio berasal dari kata curious – semangat ingin tahu & eksplorasi visual.</p>
-  </div>
-
-  <div class="section">
-    <h2>Layanan Kami</h2>
-    <ul>
-      <li><strong>Videography:</strong> Company profile, commercial, brand campaign, dokumentasi event.</li>
-      <li><strong>Wedding Films:</strong> Cinematic wedding videos, engagement, pre-wedding, wedding day documentation.</li>
-      <li><strong>Photography:</strong> Portrait, family, product, graduation, corporate headshots, fashion.</li>
-      <li><strong>Aerial & FPV Drone:</strong> Untuk kebutuhan komersial atau kreatif.</li>
-      <li><strong>Post-Production:</strong> Video editing, color grading, motion graphics.</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Kenapa Memilih Qiurio?</h2>
-    <ul>
-      <li>🎬 Kualitas sinematik tinggi</li>
-      <li>💡 Kreativitas tanpa batas</li>
-      <li>🎥 Peralatan profesional & teknologi terbaru</li>
-      <li>👥 Tim berpengalaman & fleksibel</li>
-      <li>🚁 Drone & FPV untuk visual ekstrem & dinamis</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Kontak</h2>
-    <p>Email: <a href="mailto:qiurio.creative@gmail.com">qiurio.creative@gmail.com</a></p>
-    <p>WhatsApp: <a href="https://wa.me/6281247908788" target="_blank">+62 812-4790-8788</a></p>
-    <p>Instagram: <a href="https://instagram.com/qiurio.creation">@qiurio.creation</a></p>
-    <p>YouTube: <a href="https://youtube.com/@qiuriovisuals">qiuriovisuals</a></p>
-  </div>
-
-  <div class="section">
-    <h3>📍 Berbasis di Bali — melayani klien lokal & internasional.</h3>
-  </div>
-
+  <header>
+    <video autoplay muted loop playsinline>
+      <source src="qiurio intro.mp4" type="video/mp4">
+    </video>
+    <nav>
+      <div><img src="logo.png" alt="Qiurio Logo" height="32"></div>
+      <div>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1>Visuals that Speak.</h1>
+      <p>Stories that Last. View Portfolio</p>
+    </div>
+  </header>
 </body>
 </html>
